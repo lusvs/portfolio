@@ -1,0 +1,45 @@
+@import url(/src/style/global.css);
+
+header{
+    background-color: var(--header-color);
+}
+
+.header-geral{
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.options{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.options a{
+    color: var(--letra-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande','Lucida Sans Unicode',
+    Geneva, Verdana,sans-serif;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    gap: 25px; 
+}
+
+.icones img{
+    width: 18px;
+    height: 17px;
+}
+
+body{
+    background-color: var(--main-color);
+    width: 100%;
+    height: 100vh;
+}
