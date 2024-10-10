@@ -1,13 +1,13 @@
 @import url(/src/style/global.css);
 
-
-
 body {
     background-color: var(--main-color);
     width: 100%;
     height: 100vh;
 }
+/*==================== pag 1 ========================= */
 
+/* header============================================ */
 header {
     background-color: var(--header-color);
     margin: 0px 85px;
@@ -24,12 +24,14 @@ header {
     gap: 90px;
 }
 
+/* são as opçoes do header */
 .options {
     display: flex;
     gap: 70px;
     align-items: center;
 }
 
+/* mexe diretamente com as opções do header da pag 1 */
 .options a {
     color: var(--letra-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular',
@@ -37,28 +39,36 @@ header {
         Geneva, Verdana, sans-serif;
 }
 
+/* são os icones do header */
 .icones {
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
+/* ajusta o tamanho dos icones do header */
 .icones img {
     width: 18px;
     height: 17px;
 }
+/* header =============================================== */
+
+/* .pag-1{
+    margin: 0px 180px;
+} */
 
 /* pega tudo no meio da primeira pag  */
-.info-main-geral {
+.meio-pag-1 {
     display: flex;
     gap: 32px;
-    margin: 80px 180px;
+    margin: 80px 180px 95px 180px;
     align-items: center;
 
     border: 1px solid white;
 }
 
-.info-main {
+/* sobre tudo no meio da pag */
+.meio-pag-1-geral {
     width: 100%;
     height: 247px;
 
@@ -71,7 +81,8 @@ header {
 
 }
 
-.info-main-h1-p {
+/* sobre as info no meio da pag  */
+.meio-pag-1-info {
     height: 154px;
     display: flex;
     gap: 10px;
@@ -82,6 +93,7 @@ header {
     border: 1px solid white;
 }
 
+/* as info do h1 do meio da pag 1 */
 .info-h1 {
     height: 72px;
     display: flex;
@@ -89,11 +101,13 @@ header {
     border: 1px solid white;
 }
 
-.info-main-h1-p h1 {
+/* mexe diretamente no h1 do meio da pag 1*/
+.meio-pag-1-info h1 {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* as info do p do meio da pag 1 */
 .info-p {
     height: 72px;
     display: flex;
@@ -102,12 +116,14 @@ header {
     border: 1px solid white;
 }
 
-.info-main-h1-p p {
+/* mexe diretamente no p do meio da pag 1 */
+.meio-pag-1-info p {
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.info-main button {
+/* mexe diretamente no button do meio da pag 1 */
+.meio-pag-1-geral button {
     border-radius: 5px;
 
     margin-right: 230px;
@@ -119,3 +135,31 @@ header {
     background-color: #3F8E00;
     box-shadow: 0px 0px 15px #62BA1B;
 }
+
+.baixo-pag-1{
+    margin: 0px 180px;
+    border: 1px solid white;
+}
+
+/* h1{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+.baixo-pag-1-info{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.baixo-pag-1-info div{
+    padding: 20px 36px;
+
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ==================== pag 1 ========================= */
