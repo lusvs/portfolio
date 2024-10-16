@@ -54,7 +54,7 @@ header {
 
 /* pega toda a pag 1 */
 .pag-1{
-    height: 500px;
+    height: 100vh;
     margin: 0px 180px;
 }
 
@@ -145,8 +145,7 @@ header {
 
 .baixo-pag-1-info{
     height: 60px;
-    
-    
+     
     display: flex;
     justify-content: space-between;
     color: white;
@@ -154,8 +153,7 @@ header {
 
 .baixo-pag-1-info div{
     padding: 20px 36px;
-
-    
+  
     border-radius: 5px;
     border: 1px solid gray;
     color: gray;
@@ -167,13 +165,14 @@ header {
 /* ==================== pag 2 ========================= */
 
 .pag-2{
-    height: 1402px;
+    height: 1440px;
     background-color: white;
-    
+    display: flex;
+    align-items: center;
 }
 
 .pag-2-geral{
+    
     height: 1242px;
-    margin: 80px;
     border: 1px solid black;
 }
