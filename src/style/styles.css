@@ -185,8 +185,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    border: 1px solid black;
 }
 
 .cs h1{
@@ -205,8 +203,7 @@ header {
 .trabalhos{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    border: 1px solid black;   
+    justify-content: space-around;  
 }
 
 .trabalhos h1{
@@ -222,13 +219,32 @@ header {
 
 .trabalhos button{
     color: white;
+    
 }
 
 .fintech{
     display: flex;
-
+    gap: 32px;
 }
 
+.fintech-bad{
+    width: 72px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 60px;
+    background-color: #FFF6E9;
+    color: #FFA217;
+}
+
+.fintech button{ 
+    background-color: #FFA217;
+}
 
 .edtech{
     display: flex;
