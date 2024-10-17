@@ -305,12 +305,12 @@ header {
     padding: 80px 0px;
 }
 
-.testimonials h1{
+.topo-p3 h1{
     display: flex;
     justify-content: center;
 }
 
-.testimonials p{
+.topo-p3 p{
     display: flex;
     justify-content: center;
 
@@ -318,4 +318,9 @@ header {
     margin: 0px 355px;
     margin-top: 10px;
 }
+
+.testemunhas-1e2{
+    border: 1px solid white;
+}
+
 
