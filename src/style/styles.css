@@ -209,8 +209,24 @@ header {
     border: 1px solid black;   
 }
 
+.trabalhos h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+}
+
+.trabalhos p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #9C9C9C;
+}
+
+.trabalhos button{
+    color: white;
+}
+
 .fintech{
     display: flex;
+
 }
 
 
