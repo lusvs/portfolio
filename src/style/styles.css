@@ -316,9 +316,12 @@ header {
     display: flex;
     justify-content: center;
 
-    color: var(--letra-color);
     margin: 0px 355px;
     margin-top: 10px;
+
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--letra-color);
 }
 
 .testemunhas-aria {
