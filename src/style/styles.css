@@ -284,4 +284,27 @@ header {
 
 .pharma{
     display: flex;
+    gap: 32px;
+}
+
+.pharma-bad{
+    width: 72px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 60px;
+    background-color: #E0FFF8; 
+}
+
+.pharma-bad p{
+    color: #2AB090;
+}
+
+.pharma button{
+    background-color: #2AB090;
 }
