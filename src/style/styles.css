@@ -219,7 +219,10 @@ header {
 
 .trabalhos button{
     color: white;
-    
+    width: 192px;
+    height: 40px;
+
+    border-radius: 5px;
 }
 
 .fintech{
