@@ -206,6 +206,8 @@ header {
     justify-content: space-around;  
 }
 
+.trabalhos 
+
 .trabalhos h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 24px;
@@ -241,7 +243,10 @@ header {
     font-size: 12px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 60px;
-    background-color: #FFF6E9;
+    background-color: #FFF6E9;   
+}
+
+.fintech-bad p{
     color: #FFA217;
 }
 
