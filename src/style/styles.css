@@ -184,12 +184,12 @@ header {
     border: 1px solid black;
 }
 
-.pag-2-geral h1{
+.cs h1{
     display: flex;
     justify-content: center;
 }
 
-.pag-2-geral p{
+.cs p{
     display: flex;
     justify-content: center;
 
