@@ -149,6 +149,7 @@ header {
     display: flex;
     justify-content: space-between;
     color: white;
+    
 }
 
 .baixo-pag-1-info div{
@@ -165,14 +166,33 @@ header {
 /* ==================== pag 2 ========================= */
 
 .pag-2{
+    width: 100%;
     height: 1440px;
-    background-color: white;
+    padding: 80px 200px;
+
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    background-color: white;
 }
 
-.pag-2-geral{
-    
+.pag-2-geral{  
+    width: 100%;
     height: 1242px;
+
     border: 1px solid black;
+}
+
+.pag-2-geral h1{
+    display: flex;
+    justify-content: center;
+}
+
+.pag-2-geral p{
+    display: flex;
+    justify-content: center;
+
+    margin: 0px 180px;
+    margin-top: 10px;
 }
