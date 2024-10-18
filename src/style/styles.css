@@ -368,4 +368,16 @@ header {
 
 .pag-4{
     background-color: white;
+    padding: 80px 85px;
 }
+
+.topo-pag-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo-pag-4 p{
+    padding: 0px 270px;
+}
+
