@@ -393,18 +393,23 @@ header {
 .caixas-pag-4{
     display: flex;
     gap: 30px;
+    justify-content: center;
 
     margin-top: 60px;
 }
 
 .trabalho-p4{
-    height: 540px;
-
+    width: 445px;
+    height: 494px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 20px;
     
     border: 1px solid black;
+}
+
+.trabalho-p4 img{
+    padding-bottom: 0px;
 }
 
 .trabalho-p4 button{
