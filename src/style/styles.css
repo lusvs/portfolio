@@ -367,8 +367,14 @@ header {
 /* ==================== pag 4 ========================= */
 
 .pag-4{
+    height: 835px;
     background-color: white;
     padding: 80px 85px;
+}
+
+.pag-4-geral{
+    height: 676px;
+    border: 1px solid black;
 }
 
 .topo-pag-4{
@@ -381,3 +387,19 @@ header {
     padding: 0px 270px;
 }
 
+.caixas-pag-4{
+    display: flex;
+    gap: 30px;
+
+    margin-top: 60px;
+}
+
+.trabalho-p4{
+    height: 540px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border: 1px solid black;
+}
