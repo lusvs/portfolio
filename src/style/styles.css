@@ -425,3 +425,30 @@ header {
     background-color: #3F8E00;
     box-shadow: 0px 0px 15px #62BA1B;
 }
+
+/* ==================== pag 4 ========================= */
+/* ==================== pag 5 ========================= */
+
+.pag-5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topo-pag-5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topo-pag-5 h1{
+    color: white;
+}
+
+.topo-pag-5 p{
+    color: #9C9C9C;
+}
+
+.meio-pag-5 h2{
+    color: white;
+}
