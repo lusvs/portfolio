@@ -449,6 +449,13 @@ header {
     color: #9C9C9C;
 }
 
+.meio-pag-5{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
 .meio-pag-5 h2{
     color: white;
 }
@@ -464,4 +471,14 @@ header {
     color: white;
     background-color: #3F8E00;
     box-shadow: 0px 0px 15px #62BA1B;
+}
+
+.ip-email-p5 input{
+    width: 350px;
+    height: 40px;
+}
+
+.ip-mensagem-p5 input{
+    width: 350px;
+    height: 120px; 
 }
