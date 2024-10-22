@@ -377,7 +377,9 @@ header {
 
 .pag-4-geral{
     height: 676px;
-    border: 1px solid black;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
 }
 
 .topo-pag-4{
@@ -394,8 +396,6 @@ header {
     display: flex;
     gap: 30px;
     justify-content: center;
-
-    margin-top: 60px;
 }
 
 .trabalho-p4{
@@ -405,7 +405,6 @@ header {
     flex-direction: column;
     gap: 20px;
     
-    border: 1px solid black;
 }
 
 .trabalho-p4 img{
