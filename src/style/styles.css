@@ -130,8 +130,8 @@ header {
     font-size: 16px;
 
     color: white;
-    background-color: #3F8E00;
-    box-shadow: 0px 0px 15px #62BA1B;
+    background-color: var(--button-color);
+    box-shadow: 0px 0px 15px var(--button-shadow-color);
 }
 
 .baixo-pag-1 {
@@ -429,8 +429,8 @@ header {
     font-size: 16px;
 
     color: white;
-    background-color: #3F8E00;
-    box-shadow: 0px 0px 15px #62BA1B;
+    background-color: var(--button-color);
+    box-shadow: 0px 0px 15px var(--button-shadow-color);
 }
 
 /* ==================== pag 4 ========================= */
@@ -457,8 +457,8 @@ header {
     font-size: 16px;
 
     color: white;
-    background-color: #3F8E00;
-    box-shadow: 0px 0px 15px #62BA1B;
+    background-color: var(--button-color);
+    box-shadow: 0px 0px 15px var(--button-shadow-color);
 }
 
 .topo-pag-5{
