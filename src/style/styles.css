@@ -191,6 +191,7 @@ header {
     display: flex;
     justify-content: center;
 
+    text-align: center;
     margin: 0px 180px;
     margin-top: 10px;
 }
@@ -325,6 +326,7 @@ header {
     display: flex;
     justify-content: center;
 
+    text-align: center;
     margin: 0px 355px;
     margin-top: 10px; 
 }
@@ -389,6 +391,7 @@ header {
 }
 
 .topo-pag-4 p{
+    text-align: center;
     padding: 0px 270px;
 }
 
@@ -528,15 +531,17 @@ footer{
 footer p{
     color: #9C9C9C;
 }
+/* ==================== Footer ========================= */
 
 
 
 
+/* ==================== Arrumar ========================= */
 
-
-
-
-/* Arrumar no final */
-/* colocar var nas cores 
-colocar um align-items: center; nos p */
+/* colocar var nas cores  */
+/* colocar um text-align: center; nos p */
+/* colocar a linha que a rita ensinou em volta das testemunhas */
+/* trocar a foto */
+/* arrumar os icones do header */
+/* colocar a navegaçao da pag */
 
