@@ -170,7 +170,7 @@ header {
     justify-content: center;
 
 
-    background-color: white;
+    background-color: var(--main2-color);
 }
 
 .pag-2-geral {
@@ -374,7 +374,7 @@ header {
 
 .pag-4{
     height: 835px;
-    background-color: white;
+    background-color: var(--main2-color);
     padding: 80px 85px;
 }
 
