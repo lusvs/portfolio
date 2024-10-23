@@ -389,11 +389,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .topo-pag-4 p{
     padding: 0px 270px;
     color: var(--letra-color);
+    text-align: center;
 }
 
 .caixas-pag-4{
@@ -548,4 +550,5 @@ footer p{
 /* trocar a foto */
 /* arrumar os icones do header */
 /* colocar a navegaçao da pag */
+/* arrumar os testos do input */
 
