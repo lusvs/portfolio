@@ -94,6 +94,10 @@
     background-color: #FFA217;
 }
 
+.fintech a:hover{
+    background-color: #f5b555;
+}
+
 .edtech {
     display: flex;
     flex-direction: row-reverse;
