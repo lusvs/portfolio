@@ -48,12 +48,15 @@
 }
 
 .trabalhos p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     color: var(--letra-color);
 }
 
-.trabalhos button {
+.trabalhos a {
     color: white;
     width: 192px;
     height: 40px;
@@ -84,7 +87,10 @@
     color: #FFA217;
 }
 
-.fintech button {
+.fintech a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FFA217;
 }
 
@@ -112,8 +118,15 @@
     color: #000AFF;
 }
 
-.edtech button {
+.edtech a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #000AFF;
+}
+
+.edtech a:hover{
+    background-color: #555afa;
 }
 
 .pharma {
@@ -139,7 +152,10 @@
     color: #2AB090;
 }
 
-.pharma button {
+.pharma a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #2AB090;
 }
 
