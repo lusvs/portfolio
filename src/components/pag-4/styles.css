@@ -48,10 +48,13 @@
     padding-bottom: 0px;
 }
 
-.trabalho-p4 button{
+.trabalho-p4 a{
     border-radius: 5px;
     width: 140px;
     height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     margin-right: 230px;
 
@@ -61,6 +64,10 @@
     color: white;
     background-color: var(--button-color);
     box-shadow: 0px 0px 15px var(--button-shadow-color);
+}
+
+.trabalho-p4 a:hover{
+    background-color: var(--button-shadow-color);
 }
 
 /* ==================== pag 4 ========================= */
