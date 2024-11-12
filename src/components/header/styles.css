@@ -1,19 +1,28 @@
 /* header============================================ */
+
 header {
-    background-color: var(--header-color);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    position: fixed;
-    top: 0px;
-    padding: 0px 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
 }
 
-.header-geral {
-    width: 100%;
+.header-geral{
     height: 70px;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 90px;
+
+    /* padding: 0px 95px; */
+
+    position: fixed;
+    top: 0px;
+
+    background-color: var(--header-color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* são as opçoes do header */
@@ -39,9 +48,9 @@ header {
 }
 
 /* ajusta o tamanho dos icones do header */
-.icones img {
+/* .icones img {
     width: 18px;
     height: 17px;
-}
+} */
 
 /* header =============================================== */
