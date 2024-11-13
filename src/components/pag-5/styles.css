@@ -14,23 +14,7 @@
     margin: 80px 350px;
 }
 
-.pag-5 a{
-    border-radius: 5px;
-    width: 350px;
-    height: 50px;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    color: white;
-    background-color: var(--button-color);
-    box-shadow: 0px 0px 15px var(--button-shadow-color);
-}
-
-.pag-5 a:hover{
-    background-color: var(--button-shadow-color);
-}
 
 .topo-pag-5{
     display: flex;
@@ -49,7 +33,6 @@
     color: var(--letra-color);
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
 }
 
 .meio-pag-5{
@@ -80,8 +63,7 @@
 .ip-mensagem-p5{
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    
+    gap: 5px;   
 }
 
 .ip-mensagem-p5 input{
@@ -89,8 +71,25 @@
     height: 120px; 
     border-radius: 4px;
     padding-left: 10px;
-    padding-bottom: 80px;
-    
+    padding-bottom: 80px;   
+}
+
+.pag-5 a{
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: var(--button-color);
+    box-shadow: 0px 0px 15px var(--button-shadow-color);
+}
+
+.pag-5 a:hover{
+    background-color: var(--button-shadow-color);
 }
 
 /* ==================== pag 5 ========================= */
