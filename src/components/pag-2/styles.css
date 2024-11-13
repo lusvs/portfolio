@@ -22,19 +22,19 @@
     justify-content: space-between;
 }
 
-.cs h1 {
+.cs{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-.cs p {
-    display: flex;
-    justify-content: center;
-    color: var(--letra-color);
+.cs h1{
+    font-size: 34px;
+}
 
-    text-align: center;
-    margin: 0px 180px;
-    margin-top: 10px;
+.cs p{
+    color: var(--letra-color);
 }
 
 .trabalhos {
