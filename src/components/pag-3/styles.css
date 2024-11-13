@@ -8,21 +8,23 @@
 .pag-3 p{
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--letra-color);
+    color: var(--letra-color);  
+}
+
+.topo-p3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .topo-p3 h1 {
-    display: flex;
-    justify-content: center;
+    font-size: 34px;
 }
 
-.topo-p3 p {
-    display: flex;
-    justify-content: center;
-
+.topo-p3 p{
     text-align: center;
     margin: 0px 355px;
-    margin-top: 10px; 
 }
 
 .testemunhas-aria {
@@ -47,6 +49,7 @@
     padding: 30px;
 
     border: solid 1px white;
+    border-radius: 5px;
 }
 
 .foto-nome {
