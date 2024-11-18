@@ -36,9 +36,11 @@
 }
 
 .meio-pag-5{
+    width: 350px;
     display: flex;
     gap: 20px;
     flex-direction: column;
+    /* border: solid 1px white; */
 }
 
 .meio-pag-5 h2{
@@ -53,8 +55,7 @@
     gap: 5px;
 }
 
-.ip-email-p5 input{   
-    width: 350px;
+.ip-email-p5 input{      
     height: 40px;
     border-radius: 4px;
     padding-left: 10px;
@@ -66,17 +67,15 @@
     gap: 5px;   
 }
 
-.ip-mensagem-p5 input{
-    width: 350px;
+textarea{  
     height: 120px; 
     border-radius: 4px;
     padding-left: 10px;
-    padding-bottom: 80px;   
+    padding-top: 10px;   
 }
 
-.pag-5 a{
+.pag-5 button{
     border-radius: 5px;
-    width: 350px;
     height: 50px;
     font-size: 16px;
     display: flex;
@@ -88,7 +87,7 @@
     box-shadow: 0px 0px 15px var(--button-shadow-color);
 }
 
-.pag-5 a:hover{
+.pag-5 button:hover{
     background-color: var(--button-shadow-color);
 }
 
