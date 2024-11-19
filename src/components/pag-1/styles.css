@@ -2,8 +2,8 @@
 
 /* pega toda a pag 1 */
 .pag-1 {
-    height: 100vh;
-    margin: 0px 180px;
+    margin: 5% 20% 10% 20%;
+    /* border: solid 1px white; */
 }
 
 /* pega tudo no meio da pag 1 */
@@ -12,6 +12,7 @@
     gap: 32px;
     margin: 50px 0px 57px 0px;
     align-items: center;
+    /* border: solid 1px white; */
 }
 
 .minha-ft{
